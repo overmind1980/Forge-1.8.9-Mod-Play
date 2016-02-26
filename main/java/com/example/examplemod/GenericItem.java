@@ -5,12 +5,16 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class GenericItem extends Item {
+
+	public static Item tutorialItem;
+	
 	public GenericItem(){
 		setMaxStackSize(64);
 		setCreativeTab(CreativeTabs.tabMisc);
-		setUnlocalizedName("genericItem");
+		setUnlocalizedName("tutorial_item");
 	}
     public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity)
     {
@@ -19,4 +23,5 @@ public class GenericItem extends Item {
         }
         return true;
     }
+
 }

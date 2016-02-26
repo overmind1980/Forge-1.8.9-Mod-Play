@@ -1,4 +1,3 @@
-item.genericItem.name=Generic Item
-item.genericIngot.name=Generic Ingot
+item.tutorial_item.name=OeasyItem
 tile.genericBlock.name=Generic Block
 tile.genericOre.name=Ore Block
